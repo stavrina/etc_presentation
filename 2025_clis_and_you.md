@@ -3,11 +3,11 @@ theme:
   override:
     slide_title:
       font_size: 3
-title: "My favourite package (?) managers"
-sub_title: "An account"
+title: "The command line, package management and you"
+sub_title: "An opinionated walkthrough ft. Python"
 author: Stavrina Dimosthenous
-event: MRSC
-date: 2025-07-24
+event: CLARI Group Meeting
+date: 2025-11-27
 options:
   incremental_lists: true
 ---
