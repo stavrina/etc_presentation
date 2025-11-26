@@ -15,10 +15,11 @@ options:
 Purpose
 ===
 <!-- font_size: 2 -->
-1. Quality-of-life 
-2. Try something new
-   * Go forth and explore
-3. Secret third thing
+1. Wax poetic
+2. Share frustrations
+3. Share alternatives
+4. Curiosity
+5. Confidence
 
 <!-- end_slide -->
 
@@ -51,13 +52,14 @@ Criteria
   * Fed up with conda (miniconda)
   * Wanted to go back to `venv`
   * Still needed version management
-  * `pyenv`, `virtualenv`, `pipenv`, `poetry`, `conda`, `mamba`...**?!** (⊙_☉)
+  * `pyenv`, `virtualenv`, `pipenv`, `poetry`, `conda`, `mamba`**?!** (⊙_☉)
     * And `poetry` just was not what I needed
-  * I suck at docker ╥﹏╥
+  * Docker is great!
+    * Not exactly what I need
     * Suitability (subjective)
-    * More on this soon...
-
-**I JUST FOUND OUT ABOUT `pixi` 3 days ago**
+      * remote work
+      * fully isolated environments
+    * **BUT!**
 <!-- end_slide -->
 
 `uv` some commands
@@ -168,42 +170,58 @@ Subjective view is subjective
 * **NOT** because it's written in Rust (￣ヘ￣)
 <!-- end_slide -->
 
-Reasons why I'm keeping `conda` "( – ⌓ – )
+Reasons why I'm keeping `conda`/`mamba` "( – ⌓ – )
 ===
 <!-- font_size: 2 -->
 * "Interoperability"
-* `mamba`
+* `mamba` <- it's great, actually!
 * Julia
 * I like having my hand held
-* Need to look into `pixi`
-  * It might actually solve all my problems, and tuck me into bed
 <!-- end_slide -->
 
-Still...
+For those reasons... `pixi`!
 ===
 <!-- font_size: 2 -->
-* I still want to make okay containerised environments 
-* Still locked into *CodeOSS*\/*VSCodium* (˃̣̣̥⌓˂̣̣̥ )
-  * Exploring my options
-  * And writing theme configs
-* Trying new things is fun...
+* conda-forge
+* interoperability
+* comparably intuitive commands to `uv`
+<!-- end_slide -->
+
+
+Trying new things is fun...
+===
+<!-- font_size: 2 -->
+* **BUT**
   * **Time**
   * **Reason**
 
 <!-- end_slide -->
 
-Other things to try
+Other things to try - Languages
 ===
 <!-- font_size: 2 -->
 * Julia
   * `Pkg` in the REPL!
+* `cargo`\/`cargo-binstall` (I don't even know what Rust syntax looks like)
+<!-- end_slide -->
+
+Other things to try - OS and package managers
+===
+<!-- font_size: 2 -->
 * `pacman` (for Arch)
   * `yay`\/`paru` (I prefer `yay`)
-    * Obviously, audit and vet everything on AUR!
-  * I don't use Arch
+  * Try a new OS (Libre!)
     * Try CachyOS (I use this!), EndeavourOS or Garuda Linux!
     * Lots of Arch resources on [](https://arcolinux.com/)
-* `cargo`\/`cargo-binstall` (I don't even know what Rust syntax looks like)
 * `macports` (I also use `brew` but prefer `port`)
 * Docker (use on macOS with `colima` and sort out your `.wslconfig` on Windows)
-* `eget` (Full disclosure, not tested this out yet!)
+* Chocolatey (on Windows! 🤯)
+<!-- end_slide -->
+
+Other things to try - not tested, personally... yet!
+===
+<!-- font_size: 2 -->
+* `eget`
+* `asdf`
+* `winget`
+* `scoop`

@@ -3,17 +3,6 @@ revision = 2
 requires-python = ">=3.13"
 
 [[package]]
-name = "2025-07-24-mrsc-presentation"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "weasyprint" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "weasyprint", specifier = ">=65.1" }]
-
-[[package]]
 name = "brotli"
 version = "1.1.0"
 source = { registry = "https://pypi.org/simple" }
@@ -84,6 +73,17 @@ sdist = { url = "https://files.pythonhosted.org/packages/9f/86/fd7f58fc498b3166f
 wheels = [
     { url = "https://files.pythonhosted.org/packages/0f/e7/aa315e6a749d9b96c2504a1ba0ba031ba2d0517e972ce22682e3fccecb09/cssselect2-0.8.0-py3-none-any.whl", hash = "sha256:46fc70ebc41ced7a32cd42d58b1884d72ade23d21e5a4eaaf022401c13f0e76e", size = 15454, upload-time = "2025-03-05T14:46:06.463Z" },
 ]
+
+[[package]]
+name = "etc-presentation"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "weasyprint" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "weasyprint", specifier = ">=65.1" }]
 
 [[package]]
 name = "fonttools"

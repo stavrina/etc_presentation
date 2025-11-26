@@ -9,3 +9,4 @@ config.yaml
 
 # tools
 .venv/
+.python-version
